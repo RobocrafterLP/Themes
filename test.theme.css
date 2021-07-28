@@ -1,5 +1,14 @@
-@import url(https://raw.githubusercontent.com/RobocrafterLP/Themes/main/test.css);
-@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+/**
+ * @name Test
+ * @author RobocrafterLP
+ * @version 1.0.5
+ * @description lost
+ * @authorId 298012340194902016
+*/
+
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
+@import url(https://robocrafterlp.github.io/Themes/test2.css);
+@import url(https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css);
 
 :root {
 	--rs-version: "2.0.6";
