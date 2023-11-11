@@ -1,0 +1,25 @@
+:root {
+	--speak:  				  #43b581;
+}
+
+.voiceUser__0470a .avatarSpeaking_c95053:after {
+  content: '';
+  position: absolute;
+  height: 1.7em;
+  background: linear-gradient(to right, var(--speak) 10%, transparent);
+  opacity: 0.5;
+  transition: all 0.1s ease-in-out, width 0.15s ease-in-out;
+  pointer-events: none;
+  z-index: -1;
+  border-radius: 999px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.voiceUser__0470a .avatarSpeaking_c95053 {
+  box-shadow: 0 0 0 2px var(--speak), inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.voiceUser__0470a .avatarSpeaking_c95053:after {
+  top: -2px;
+  bottom: -2px;
+  width: 150px;
+}
